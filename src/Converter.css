@@ -1,0 +1,52 @@
+.converter {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #89b8ee;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgb(8, 28, 216);
+    text-align: center;
+  }
+  
+  .converter h2 {
+    text-align: center;
+    color: #363fec;
+    box-shadow: 0 0 10px rgb(8, 28, 216);
+    border-radius: 8px;
+    justify-content: center;
+    display: flex;
+  }
+  
+  .converter label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 16px;
+    background-color: #89b8ee;
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+  .converter input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #89b8ee;
+    border-radius: 8px;
+  }
+  
+  .converter .result {
+    margin-top: 20px;
+    background-color: #89b8ee;
+    padding: 10px;
+    border-radius: 8px;
+  }
+  
+  .converter .result p {
+    font-size: 18px;
+    color: #31708f;
+    box-shadow: 0 0 4px rgb(8, 28, 216);
+    border-radius: 20px;
+    box-sizing: border-box;
+    text-align: center;
+  }
+  
